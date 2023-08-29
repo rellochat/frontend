@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --accent-primary: red;
+        --bg-primary: hsl(342, 9.5%, 6.25%);
+        --fg-primary: hsl(342, 9.5%, 93.75%);
+        /* ... */
+    }
+}
+
+.bg-primary {
+    background: var(--bg-primary);
+}
+
+.accent-primary {
+    background: var(--accent-primary);
+}
