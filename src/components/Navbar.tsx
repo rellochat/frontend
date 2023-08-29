@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import NavLink from "./NavLink";
+import NavLink from "./util/NavLink";
 
 export default function Navbar() {
     return (
