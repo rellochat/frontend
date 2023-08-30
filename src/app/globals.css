@@ -8,7 +8,9 @@
         --accent-secondary: hsl(342, 0%, 50%);
         --bg-primary: hsl(342, 0%, 10%);
         --bg-secondary: hsl(342, 0%, 20%);
+        --input: hsl(342, 10%, 10%);
         --fg-primary: hsl(342, 9.5%, 93.75%);
+        --fg-secondary: hsl(342, 9.5%, 70.3125%);
         /* ... */
     }
 }
@@ -27,4 +29,17 @@
 
 .accent-secondary {
     background: var(--accent-secondary);
+}
+
+.input {
+    background: var(--input);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.125rem;
+}
+
+a.link {
+    color: var(--accent-primary);
 }
