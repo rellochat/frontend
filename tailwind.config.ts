@@ -7,8 +7,10 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    height: {
-      "landing-header": "5rem"
+    extend: {
+      height: {
+        "landing-header": "5rem"
+      }
     },
     colors: {
       "white": "white",
