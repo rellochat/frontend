@@ -15,6 +15,7 @@ const config: Config = {
     colors: {
       "white": "white",
       "primary": "var(--fg-primary)",
+      "secondary": "var(--fg-secondary)",
       "accent-primary": "var(--accent-primary)"
     }
   },
