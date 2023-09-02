@@ -2,6 +2,7 @@
 import { useEffect } from 'react';
 import './globals.css'
 import type { Metadata } from 'next'
+import ModalProvider from '@/provider/ModalProvider';
 
 export const metadata: Metadata = {
   title: 'Rello',
@@ -25,7 +26,11 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="bg-primary text-primary">{children}</body>
+      <body className="bg-primary text-primary">
+        <ModalProvider>
+          {children}
+        </ModalProvider>
+      </body>
     </html>
   )
 }
